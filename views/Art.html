@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/icon1.png" type="image/x-icon">
+  <title>艺术学院</title>
+  <link rel="stylesheet" href="../styles/bootstrap.css">
+  <link rel="stylesheet" href="../styles/Basics.css">
+  <script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="../styles/Art.css">
+
+  <script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+      <a class="navbar-brand" href="index.html"><img src="../images/log.png" class="logimg"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">首页<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../views/increase.html">课程</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../views/teacher.html">名师</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="btn  dropdown-toggle nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-expanded="false">
+                关于学校
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="../views/introduction.html">学校简介</a>
+                <a class="dropdown-item" href="../views/scenery.html">学校风光</a>
+
+              </div>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline  mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="关键字" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <content>
+    <div class="container-fluid mt-4">
+      <div class="row ">
+        <div class="col-md-12 text-center">
+          <h5 class="txt9">艺术学院</h5>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt-4">
+      <div class="row ">
+        <div class="col-2 py-0">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+              href="#list-home" role="tab" aria-controls="home">专业设置</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+              href="#list-profile" role="tab" aria-controls="profile">专业介绍</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+              href="#list-messages" role="tab" aria-controls="messages">学院详情</a>
+
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content heigth" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td colspan="2" rowspan="5" class="text-center">
+                      <div class="content txt8">本科</div>
+                    </td>
+                    <td colspan="2" class="txt8">软件工程</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">计算机科学与技术</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">数据科学与大数据技术</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">虚拟现实技术专业</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">智能科学与技术</td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="2" rowspan="5" class="text-center">
+                      <div class="content1 txt8">高职</div>
+                    </td>
+                    <td colspan="2" class="txt8">软件技术</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">计算机应用技术</td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade heigth" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col" colspan="2" class="text-center txt8">专业</th>
+                    <th scope="col" class="text-center txt8">专业方向</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <div class="td">
+                      <td colspan="2" rowspan="5" class="text-center tr">
+                        <div class="content txt8">软件工程</div>
+                      </td>
+                    </div>
+                    <td colspan="2" class="txt8">嵌入式方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">软件开发方向（Java开发）</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">游戏软件方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">移动应用方向（iOS开发）</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">移动应用方向（Android开发）</td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="2" rowspan="2" class="text-center">
+                      <div class="content1 txt8">计算机科学与技术</div>
+                    </td>
+                    <td colspan="2" class="txt8">人工智能方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">大数据与云计算方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" rowspan="2" class="text-center">
+                      <div class="content1 txt8">数据科学与大数据技术</div>
+                    </td>
+                    <td colspan="2" class="txt8">大数据开发方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">数据分析方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" rowspan="2" class="text-center">
+                      <div class="content1 txt8">智能科学与技术专业</div>
+                    </td>
+                    <td colspan="2" class="txt8">智能机器人方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">人工智能应用开发方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" rowspan="2" class="text-center">
+                      <div class="content1 txt8">虚拟现实技术</div>
+                    </td>
+                    <td colspan="2" class="txt8">虚拟现实应用开发方向
+
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">虚拟现实设计与制作方向</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade heigth" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+              <p class="font text-justify txt8">
+                哈尔滨信息工程学院艺术设计学院始建于2004年，致力于培养时代急需的会设计、擅沟通的卓越设计师。艺术设计学院在校学生1100多人，现设环境设计、视觉传达设计两个本科专业。拥有一支优秀的双师型教学团队,其中省级名师2人，教授4人，高级职称教师讲课占76%。完成省级科研课题19项，省级精品课3门，应用型科研课题40项，专利20项，出版教材33部。
+                <h5><b>教学环境</b></h5>
+                <p class="font text-justify txt8">
+                  为了切实提高学生的专业实践能力、拓展学生的视野、提高学生学习兴趣、增强学生的职业竞争能力，艺术设计学院为学生提供了优越的实践教学环境，建设了3200平方米的艺术教育基地，陶艺室、画室、集群渲染中心、摄影工作室、录音间等23个实验室以及300平方米的艺术展厅，建立了室内设计、景观设计、工程造价、UI界面互交设计、标志设计、平面设计、影视设计、中影动画校企合作等13个与企业工作环境一致的工作室,还有无障碍空间设计、智慧生活体验中心、VR虚拟现实等3个研究室。
+                </p>
+                <h5><b>优势与特色</b></h5>
+                <p class="font text-justify txt8">
+                  学院秉承“将学校建设成省内一流、国内特色鲜明的应用型本科”的办学目标，根据社会对IT人才的广泛需求与要求，按照以“就业为导向，专业能力为本”的原则，坚持以突出实践教学为特色，充分发挥我校笔记本大学的优势，不断进行教学改革创新。几年来进行了“优化课程体系、细化专业方向”、“专业课前置”、“核心课程三进阶”、“实践教学编程不断线”等一系列的重大教学改革，人才培养效果显著，毕业生得到了企业的一致认可和好评。
+                  在校企合作方面学院构建了“工学结合、产教融合”的人才培养模式，与联想集团、微软、苹果、用友、甲骨文等世界五百强企业对接，建有苹果公司东北区AATCE培训基地、谷歌东北教师培训中心、微软公司授权培训中心（ATC）、华为网络学院、联想高级人才东北培训基地、联想集团工程师培养培训基地、IBM
+                  AUEC人才培养基地、用友公司软件实施人才培养基地、甲骨文校企合作单位等多个校企合作基地。实现“校企协同育人”、“工学交替”的人才培养模式，构筑了产学研深度融合的协同育人平台。
+                </p>
+
+                <p class="font text-justify txt8">
+                  近年来，软件学院在科研育人的探索中也取得了一些成绩，将应用型科研育人作为抓手，搭建了众多应用型科研实践平台。目前，学院建有1个智慧校园研发中心、1个创客中心、32个实验室和科研室，总面积3938平方米。实验室和研发室均为开放式，配有专业的图书资料，主要作为孵化学生创新科研成果的重要基地。近3年由教师带领学生开发并正式上线的项目包含响应式黑龙江省教育厅黑龙江省高等教育数据分析系统、黑龙江省教育资源统计系统、多人协作汽车拆装实验系统、自助离校系统、哈信息后勤管理系统App等24个系统；智能零售系统、移动端人员信息识别系统、基于机械手臂协同操作的研究与开发系统、学生寝室无感监控查询系统、哈信息评卷系统等在研项目34个。软件学院在应用型科研育人的道路上形成了学生“自研”、师生“同研”、产教“领研”的育人新模式。两年来育人成果颇丰，学生在国家级、省级竞赛中共获奖185项，应用型人才培养质量持续提升。
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </content>
+  <footer class="mt-5">
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-6 py-3 d-none d-md-block">
+          <a href="#">
+            <h6 class="color txt7">由高教社联手网易推出，让每一个有提升愿望的用户能够学到中国知名高校的课程，并获得认证</h6>
+          </a>
+        </div>
+        <div class="col-lg-2  py-3 d-none d-md-block">
+          <a href="#">
+            <p class="color ">关于我们</p>
+          </a>
+        </div>
+        <div class="col-lg-2 py-3 d-none d-md-block">
+          <a href="#">
+            <p class="color">联系我们</p>
+          </a>
+        </div>
+        <div class="col-lg-2 py-3 d-none d-md-block">
+          <a href="#">
+            <p class="color">友情链接</p>
+          </a>
+        </div>
+        <div class=" col-12 mt-4">
+          <a href="#">
+            <p class="color text-center txt7">网上有害信息举报：网站 https://www.12377.cn 电话 010-58581010 邮箱
+              youdao_jubao@rd.netease.com</p>
+          </a>
+        </div>
+        <div class="col-12">
+          <a href="#">
+            <p class="color text-center txt7">粤B2-20090191-26 | 京ICP备12020869号-2 | 京公网安备44010602000207</p>
+          </a>
+        </div>
+
+        <div class=" col-12">
+          <a href="#">
+            <p class="color text-center txt7">©2014-2021 icourse163.org</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

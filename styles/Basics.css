@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    -webkit-user-drag: none;
+
+}
+
+.clear {
+    clear: both;
+    text-indent: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: #272727;
+}
+
+.flog {
+    width: 96px;
+    height: 50px;
+    align-self: center;
+
+}
+
+.color {
+    color: #999795;
+
+}
+
+.font {
+    text-indent: 2em;
+}
+
+.heigth {
+    height: 710px;
+
+}
+
+.txt7 {
+    font-size: 12px;
+}
+
+.txt8 {
+    font-size: 14px;
+}
+
+.txt9 {
+    font-size: 24px;
+}
+
+.txt10 {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 606px) {
+    .heigth {
+        height: auto;
+    }
+
+
+}
+
+.content {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    font-size: 17px;
+
+}
+
+.heigth1 {
+    height: 710px;
+}
+
+.heigth2 {
+    height: auto;
+}
+
+.txt1 {
+    font-size: 14px;
+    font-weight: bold;
+
+
+}
+
+.txt2 {
+    font-size: 13px;
+    color: #999999;
+}
+
+.txt6 {
+    font-size: 14px;
+
+}
+
+.txt5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 972px) {
+
+
+    .txt1 {
+        font-size: 12px;
+        font-weight: bold;
+
+
+    }
+
+    .txt2 {
+        font-size: 12px;
+    }
+
+    .txt3 {
+        font-size: 15px;
+
+    }
+
+    .txt4 {
+        font-size: 12px;
+    }
+
+    .txt5 {
+        font-size: 18px;
+    }
+
+    .txt6 {
+        font-size: 13px;
+    }
+
+
+}
+
+
+
+/* 后加 */
+.dropdown-menu {
+    z-index: 999999999999;
+}
+
+.logimg {
+    display: block;
+    height: 40px;
+
+}
+
+.navbar {
+    padding: 0.5rem 3rem;
+}
+
+.carousel-indicators li {
+    width: 25px;
+    height: 4px;
+
+
+}
+
+.btn-outline-success {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.btn-outline-success:hover {
+    color: #FFFFFF;
+    background-color: #1D2273;
+    border-color: #FFFFFF;
+}
+
+.style .btn-outline-success {
+    width: 120px;
+    color: #272727;
+    font-weight: 510;
+    /* border-color: #1D2273; */
+    border: 1px solid #1D2273;
+}
+
+.style .btn-outline-success:hover {
+    color: #FFFFFF;
+    background-color: #1D2273;
+    border-color: #FFFFFF;
+}
+#brncolor > .btn-success{
+	color: #fff;
+    background-color: #1D2273;
+    border-color: #1D2273;
+}
+#brncolor >.btn-success:focus{
+	box-shadow: 0 0 0 0.2rem #1D2273;
+}

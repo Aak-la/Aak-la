@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/icon1.png" type="image/x-icon">
+  <title>商学院</title>
+  <link rel="stylesheet" href="../styles/bootstrap.css">
+  <link rel="stylesheet" href="../styles/Basics.css">
+  <script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+      <a class="navbar-brand" href="index.html"><img src="../images/log.png" class="logimg"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">首页<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../views/increase.html">课程</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../views/teacher.html">名师</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="btn  dropdown-toggle nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-expanded="false">
+                关于学校
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="../views/introduction.html">学校简介</a>
+                <a class="dropdown-item" href="../views/scenery.html">学校风光</a>
+
+              </div>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline  mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="关键字" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <content>
+    <div class="container-fluid mt-4">
+      <div class="row ">
+        <div class="col-md-12 text-center">
+          <h5 class="txt9">商学院</h5>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt-4">
+      <div class="row ">
+        <div class="col-2 py-0">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+              href="#list-home" role="tab" aria-controls="home">专业设置</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+              href="#list-profile" role="tab" aria-controls="profile">专业介绍</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+              href="#list-messages" role="tab" aria-controls="messages">学院详情</a>
+
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content heigth" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td colspan="2" rowspan="5" a="text-center">
+                      <div class="content txt8">本科</div>
+                    </td>
+                    <td colspan="2" class="txt8">软件工程</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">计算机科学与技术</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">数据科学与大数据技术</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">虚拟现实技术专业</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">智能科学与技术</td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="2" rowspan="5" class="text-center">
+                      <div class="content1 txt8">高职</div>
+                    </td>
+                    <td colspan="2" class="txt8">软件技术</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">计算机应用技术</td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade heigth" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col" colspan="2" class="text-center txt8">专业</th>
+                    <th scope="col" class="text-center txt8">专业方向</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <div class="td">
+                      <td colspan="2" rowspan="5" class="text-center tr">
+                        <div class="content txt8">软件工程</div>
+                      </td>
+                    </div>
+                    <td colspan="2" class="txt8">嵌入式方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">软件开发方向（Java开发）</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">游戏软件方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">移动应用方向（iOS开发）</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">移动应用方向（Android开发）</td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="2" rowspan="2" class="text-center">
+                      <div class="content1 txt8">计算机科学与技术</div>
+                    </td>
+                    <td colspan="2" class="txt8">人工智能方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">大数据与云计算方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" rowspan="2" class="text-center">
+                      <div class="content1 txt8">数据科学与大数据技术</div>
+                    </td>
+                    <td colspan="2" class="txt8">大数据开发方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">数据分析方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" rowspan="2" class="text-center">
+                      <div class="content1 txt8">智能科学与技术专业</div>
+                    </td>
+                    <td colspan="2" class="txt8">智能机器人方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">人工智能应用开发方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" rowspan="2" class="text-center">
+                      <div class="content1 txt8">虚拟现实技术</div>
+                    </td>
+                    <td colspan="2" class="txt8">虚拟现实应用开发方向
+
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">虚拟现实设计与制作方向</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade heigth" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+              <p class="font text-justify txt8">
+                哈尔滨信息工程学院商学院是培养新时代商业精英的摇篮。自2002年成立以来，致力于培养“文化底蕴深厚、实践沟通能力强、商务专业能力强”的国际化商务人才。学院有电子商务本专科、物流管理两个专业群，电子商务专业为哈尔滨市双元制建设专业。目前，在校本科生、专科生总计1100余人。
+              </p>
+              <p class="font text-justify txt8">
+                学院拥有一支由学院专职教师、外聘大学教授、企业资深专家共同组成的“三师型”教师队伍，其中，我院专职教师15人，高级职称5人，所有教师均具有硕士以上学历，外聘来自省内知名大学的主讲教授10余人，高薪聘请来自国内顶尖商务企业百度、京东的金牌讲师专家8人，实现了45%以上专业前沿课程由企业讲师讲授并带领学生完成实践类课程。
+              </p>
+              <h5><b>学院育人特色</b></h5>
+              <p class="font text-justify txt8">
+                1.国际化的商科教学模式，将案例教学、研讨式教学引入课堂，500个典型案例、300个研讨式案例融入课堂，提升学生的商务知识应用能力。
+              </p>
+              <p class="font text-justify txt8">
+                2.每个专业分支均有国内顶级的合作企业共建，由企业专家授课，将行业前沿技术带给学生。
+              </p>
+              <p class="font text-justify txt8">
+                3.专业课程采用SPPT教学模式，即SEMINAR(研讨小组）SIMULATION  TRAINING（模拟训练）PRACTICAL  TRAINING(实战训练），三进阶的授课模式让学生充分掌握岗位核心能力知识。
+              </p>
+              <p class="font text-justify txt8">
+                4.校企合作共建课程，基于SSPT的教学模式与其他高校、企业、我院合作开发重点课程，将素质教育、互动式研讨教学方法渗透至课程教学过程中。
+              </p>
+              <p class="font text-justify txt8">
+                5.教师学生共同参与横向课题项目，学科方向专业教师与合作企业专家，带领大三、大四学生共同参与企业横向课题以及校内自立项目的建设。现有项目及课题三大类共五个项目。
+              </p>
+              <p class="font text-justify txt8">
+                6.员工素质培养贯穿教学全过程，将商务礼仪、职业素质要求全面融入课堂教学过程，让我们的学生在校期间就具有商务气质。
+              </p>
+              <p class="font text-justify txt8">
+                7.与教学模式相适应的实验室建设，现有电商实验室七个，案例研讨教室六个，建筑面积接近5000平方米，居省内各高校前列，四套电子商务模拟软件，共计投入近百万元。
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </content>
+  <footer class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 py-3 d-none d-md-block">
+          <a href="#">
+            <h6 class="color txt7">由高教社联手网易推出，让每一个有提升愿望的用户能够学到中国知名高校的课程，并获得认证</h6>
+          </a>
+        </div>
+        <div class="col-lg-2  py-3 d-none d-md-block">
+          <a href="#">
+            <p class="color ">关于我们</p>
+          </a>
+        </div>
+        <div class="col-lg-2 py-3 d-none d-md-block">
+          <a href="#">
+            <p class="color">联系我们</p>
+          </a>
+        </div>
+        <div class="col-lg-2 py-3 d-none d-md-block">
+          <a href="#">
+            <p class="color">友情链接</p>
+          </a>
+        </div>
+        <div class=" col-12 mt-4">
+          <a href="#">
+            <p class="color text-center txt7">网上有害信息举报：网站 https://www.12377.cn 电话 010-58581010 邮箱
+              youdao_jubao@rd.netease.com</p>
+          </a>
+        </div>
+        <div class="col-12">
+          <a href="#">
+            <p class="color text-center txt7">粤B2-20090191-26 | 京ICP备12020869号-2 | 京公网安备44010602000207</p>
+          </a>
+        </div>
+
+        <div class=" col-12">
+          <a href="#">
+            <p class="color text-center txt7">©2014-2021 icourse163.org</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

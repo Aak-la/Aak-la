@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    -webkit-user-drag: none;
+}
+.clear{
+clear: both;
+text-indent: 2em;
+}

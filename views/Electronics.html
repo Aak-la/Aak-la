@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/icon1.png" type="image/x-icon">
+  <title>电子学院</title>
+  <link rel="stylesheet" href="../styles/bootstrap.css">
+  <link rel="stylesheet" href="../styles/Basics.css">
+  <script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../styles/Electronics.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+      <a class="navbar-brand" href="index.html"><img src="../images/log.png" class="logimg"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">首页<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../views/increase.html">课程</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../views/teacher.html">名师</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="btn  dropdown-toggle nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-expanded="false">
+                关于学校
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="../views/introduction.html">学校简介</a>
+                <a class="dropdown-item" href="../views/scenery.html">学校风光</a>
+
+              </div>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline  mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="关键字" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <content>
+    <div class="container-fluid mt-4">
+      <div class="row ">
+        <div class="col-md-12 text-center">
+          <h5 class="txt9">电子学院</h5>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt-4">
+      <div class="row ">
+        <div class="col-2 py-0">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active hook1" id="list-home-list" data-toggle="list"
+              href="#list-home" role="tab" aria-controls="home">专业设置</a>
+            <a class="list-group-item list-group-item-action hook1" id="list-profile-list" data-toggle="list"
+              href="#list-profile" role="tab" aria-controls="profile">专业介绍</a>
+            <a class="list-group-item list-group-item-action hook" id="list-messages-list" data-toggle="list"
+              href="#list-messages" role="tab" aria-controls="messages">学院详情</a>
+
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content heigth1" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td colspan="2" rowspan="5" a="text-center">
+                      <div class="content txt8">本科</div>
+                    </td>
+                    <td colspan="2" class="txt8">软件工程</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">计算机科学与技术</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">数据科学与大数据技术</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">虚拟现实技术专业</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">智能科学与技术</td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="2" rowspan="5" class="text-center">
+                      <div class="content1 txt8">高职</div>
+                    </td>
+                    <td colspan="2" class="txt8">软件技术</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">计算机应用技术</td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade " id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col" colspan="2" class="text-center txt8">专业</th>
+                    <th scope="col" class="text-center txt8">专业方向</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <div class="td">
+                      <td colspan="2" rowspan="5" class="text-center tr">
+                        <div class="content txt8">软件工程</div>
+                      </td>
+                    </div>
+                    <td colspan="2" class="txt8">嵌入式方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">软件开发方向（Java开发）</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">游戏软件方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">移动应用方向（iOS开发）</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">移动应用方向（Android开发）</td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="2" rowspan="2" class="text-center">
+                      <div class="content1 txt8">计算机科学与技术</div>
+                    </td>
+                    <td colspan="2" class="txt8">人工智能方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">大数据与云计算方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" rowspan="2" class="text-center">
+                      <div class="content1 txt8">数据科学与大数据技术</div>
+                    </td>
+                    <td colspan="2" class="txt8">大数据开发方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">数据分析方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" rowspan="2" class="text-center">
+                      <div class="content1 txt8">智能科学与技术专业</div>
+                    </td>
+                    <td colspan="2" class="txt8">智能机器人方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">人工智能应用开发方向</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" rowspan="2" class="text-center">
+                      <div class="content1 txt8">虚拟现实技术</div>
+                    </td>
+                    <td colspan="2" class="txt8">虚拟现实应用开发方向
+
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="txt8">虚拟现实设计与制作方向</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade " id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+              <p class="font text-justify">电子工程学院依托国家电子信息产业紧缺人才培养基地，是哈尔滨信息工程学院重点建设院系之一，
+                旨在培养德、智、体全面发展，具有素质高，专业基础好，动手能力强，综合解决实际问题能力的
+                卓越工程师。学院设有电子信息工程、自动化和人工智能3个专业。电子信息工程专业学生通过学习
+                ，熟练掌握信息系统和电子仪器设备方面的基础理论、组成原理和设计方法，受到电子信息工程实践
+                的基本训练。学生毕业后可从事电子仪器设备和信息系统的设计、开发、应用以及技术管理等工作。
+                自动化专业学生通过学习，熟练掌握自动化工程领域相关的基础理论，具备专业技术和实践能力,熟悉
+                自动化控制系统的设计原理与设计方法，能够从事自动化控制系统的技术开发、系统运行与维护、技术
+                管理等方面的应用型工程技术工作，学生在毕业后能从事运动控制、过程控制、信号与数据处理及嵌入
+                式开发等方面的技术工作。人工智能专业学生通过学习，能够掌握人工智能领域的基本理论、基本知识
+                和技能，具备分析、解决复杂人工智能工程问题的能力，能够从事人工智能相关领域的研究、设计、开
+                发等方面的工作，还可从事智能城市、智能金融、智能物联、智能教育等领域的管理工作。</p>
+              <h5>教学资源</h5>
+              <p class="font text-justify">学院拥有一支专业理论扎实，教学经验丰富教师队伍，70%的教师有企业锻炼和工作的经历，兼具传授知识
+                和指导实践双师功能；近年来，学院教师先后完成省级科研课题18项、专利21项，出版教材23部。为了使学生及
+                早适应社会，胜任工作，学院高薪聘请具有多年项目研发经验的高级工程师和知名高校的资深教师参与学生培养
+                ，指导学生完成课程设计和项目实践。学院设有大学物理实验室、电工实验室、电子技术实验室等基础全仿真实验
+                室12间，电子创新实验室、物联网创新实验室、SMT及制板工作室等科研工作室7间，实验设备设施的投入在省内
+                同类院校位居前列。</p>
+              <h5>教学特色</h5>
+
+              <p class="font text-justify">学生培养以能力提升为核心，以优化的课程体系为支撑，实现知识、能力、素质三位一体协调发展，凸显“做中学”教学方式，
+                注重激发学生学习兴趣，提升学生实践能力，解决问题的能力。理论实践一体化 以学生掌握知识和技能划分教学内容，把对理论知
+                识的讲解和学生相应的实
+                验技能训练穿插进行，打破教室与实验室，课堂理论与单元式实验的界限。
+                实践教学环节纵向贯穿始终 从大一新生入校到大四毕业离校，确保每一位学生能够由浅入深、循序渐进地提高实践动手能力及理
+                论和实践相结合的能力。
+
+                基础验证实践教学：在专业课内设置仿真实验，开发板、实验箱验证实验，重在培养学生理论与实践结合，为开放创新实践奠定基础。
+
+                项目实践教学：将真实项目引入教学，让学生边做边学，把看到的、听到的、手上做的结合起来。学生在寻找结果的过程中，学会思考，
+                学会发现问题，解决问题，进而增强信心、提高学习积极性、锻炼能力。
+
+                开放创新实践教学：鼓励学生举一反三，自己动手制作，启发他们按照自己的想法设计制作有创新点的综合项目作品，校内实验室科研室24小时对学生开放、实验耗材全部免费提供。
+
+                校企紧密结合
+                学院对高年级即将就业学生，邀请企业技术工程师走进校园进行项目分析，实战授课。将企业的需求、项目实战的经验带给学生，提高其就业竞争力，并建立了华清远见、九洲电气、光宇集团、舜宇光电集团、南京熊猫电子、苏州纳芯微电子、深圳天派科技等23个校企合作基地。
+              </p>
+
+              <h5>学生管理与活动</h5>
+
+              <p class="font text-justify">
+                学院对学生管理采用双轨制，配班主任，辅导员，班主任负责学生学习，辅导员负责日常管理。学生会配合学院老师完成学生自我管理，学院采用三级管理的精细化管理制度，管理各项工作，做到抓好课堂，抓好课余，抓好活动。每一堂课，每一个学生的上课状态，出勤情况，学习进度
+                ，实验室进出情况，宿舍卫生都有统一的管理 ，并有客观记载，晚自习有老师给学生进行辅导，课余时间进入实验室有科研导师进行课余任务的管理和指导。
+
+                学院坚持“人的全面发展”办学理念，通过营造良好的学风氛围，提升学生学习的积极性及学习能力，同时开展丰富多彩的素质教育活动，提升学生的综合素质。如围绕读书工程开展“微信读书活动”围绕运动型校园开展“体育节，冰雪活动周”；围绕爱校如家组织”迎新晚会、送老生晚会”诗歌朗诵比赛、演讲比赛；围绕“常念父母恩，常怀敬师情”开展的大学生必做的四件事感恩教育活动；围绕“勿以善小而不为，勿以恶小而为之”基础文明教育，开展带走教室垃圾、室外捡烟头活动，成立大学生宣讲团，讲文明、讲制度、讲安全。丰富校园文化生活，发挥学生个性特长，陶冶情操，锻炼能力，提高审美情趣，开阔视野，培养团队精神，增强集体荣誉感。从而提高学生适应社会能力，全面发展。
+              </p>
+
+              <h5>就业前景 　</h5>
+
+              <p class="font text-justify">
+                随着全球电子产品的制造与研发向中国进行重大战略转移，以及智能控制和工业自动化领域的发展，国家和行业亟需集成电路设计、信息处理、智能控制等方面的技术人才，电子工程学院的毕业生就业前景广阔。就业领域包括高科技开发设计公司、科研院所、大型自动化生产加工企业、金融机构及政府部门等。近年来，学院先后为华为集团、福耀集团、广东格兰仕集团、舜宇光电集团、苏州纳芯微电子、建设银行、农业银行等企业输送了大量人才。
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </content>
+  <footer class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 py-3 d-none d-md-block">
+          <a href="#">
+            <h6 class="color txt7">由高教社联手网易推出，让每一个有提升愿望的用户能够学到中国知名高校的课程，并获得认证</h6>
+          </a>
+        </div>
+        <div class="col-lg-2  py-3 d-none d-md-block">
+          <a href="#">
+            <p class="color ">关于我们</p>
+          </a>
+        </div>
+        <div class="col-lg-2 py-3 d-none d-md-block">
+          <a href="#">
+            <p class="color">联系我们</p>
+          </a>
+        </div>
+        <div class="col-lg-2 py-3 d-none d-md-block">
+          <a href="#">
+            <p class="color">友情链接</p>
+          </a>
+        </div>
+        <div class=" col-12 mt-4">
+          <a href="#">
+            <p class="color text-center txt7">网上有害信息举报：网站 https://www.12377.cn 电话 010-58581010 邮箱
+              youdao_jubao@rd.netease.com</p>
+          </a>
+        </div>
+        <div class="col-12">
+          <a href="#">
+            <p class="color text-center txt7">粤B2-20090191-26 | 京ICP备12020869号-2 | 京公网安备44010602000207</p>
+          </a>
+        </div>
+
+        <div class=" col-12">
+          <a href="#">
+            <p class="color text-center txt7">©2014-2021 icourse163.org</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/Basics.js"></script>
+</body>
+
+
+</html>

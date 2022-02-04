@@ -1,0 +1,19 @@
+.heigth4{
+    height: 420px;
+}
+
+@media screen and (max-width: 996px) {
+	.heigth4 {
+		height: 330px;
+		
+	}
+	
+}
+@media screen and (max-width: 577px) {
+    .heigth4{
+        height: auto;
+    }
+    
+   
+    
+}
